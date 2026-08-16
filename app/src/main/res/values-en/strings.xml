@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XingTe AntiLock</string>
+    <string name="accessibility_desc">AntiLock accessibility service, used to pop up an uninstall list when locked by malware, helping to uninstall malicious apps.</string>
+    <string name="main_title">AntiLock</string>
+    <string name="main_info">1.Enable accessibility service by clicking the Accessibility Settings button. If denied, go to app details and tap the three dots in the top right corner to cancel, or join the QQ group for help.\n2.Activate and authorize Shizuku. If you don\'t know how, search for tutorials on Bilibili or join the QQ group.\n3.It is recommended to enable Force on Top. After AntiLock runs successfully, wait a moment, enable Force on Top, wait another moment, tap the wake button, and check if it works normally. If not, join the QQ group for help.\n4.AntiLock only reduces the risk of being locked. No tool can guarantee 100% security.\n5.AntiLock does not prevent factory reset or administrator lock (locking by changing your phone password).</string>
+    <string name="btn_shizuku">Grant Shizuku</string>
+    <string name="btn_accessibility">Accessibility Settings</string>
+    <string name="btn_overlay">Overlay Permission</string>
+    <string name="btn_more">More Resources</string>
+    <string name="btn_opensource">Open Source</string>
+    <string name="btn_qq_group">Join QQ Group</string>
+    <string name="section_settings">━━━ Floating Button Settings ━━━</string>
+    <string name="label_width">Width</string>
+    <string name="label_height">Height</string>
+    <string name="label_alpha">Opacity</string>
+    <string name="label_color">Color</string>
+    <string name="label_position">Position</string>
+    <string name="label_force">Force on top (restart when not in list)</string>
+    <string name="label_interval">Interval</string>
+    <string name="tip_height">0 = Auto match status bar height</string>
+    <string name="tip_alpha">0=Transparent 255=Opaque  Default 140</string>
+    <string name="tip_interval">Force on top interval (5-60 seconds)</string>
+    <string name="footer_settings">Settings apply automatically</string>
+    <string name="force_on">Enabled</string>
+    <string name="force_off">Disabled</string>
+    <string name="toast_shizuku_ok">Granted</string>
+    <string name="toast_shizuku_no">Shizuku not running</string>
+    <string name="toast_shizuku_norun">Shizuku not running</string>
+    <string name="toast_force_on">Force on top enabled</string>
+    <string name="toast_force_off">Force on top disabled</string>
+    <string name="toast_color_set">Color set</string>
+    <string name="open_source_url">https://github.com/xiaote-XT/AntiLock</string>
+
+    <!-- Uninstall list -->
+    <string name="uninstall_title">Select to Uninstall</string>
+    <string name="search_hint">Search app name or package...</string>
+    <string name="loading">Loading...</string>
+    <string name="confirm_uninstall">Confirm Uninstall</string>
+    <string name="ok_uninstall">Uninstall</string>
+    <string name="cancel">Cancel</string>
+    <string name="hide">✕ Hide</string>
+    <string name="refresh_list">Refresh</string>
+    <string name="back_home">Home</string>
+    <string name="count_format">%1$d apps  |  %2$s  |  Long press to disable</string>
+    <string name="shizuku_silent">Shizuku silent uninstall</string>
+    <string name="system_uninstall">System uninstall page</string>
+    <string name="uninstall_sent">Shizuku uninstall command sent</string>
+    <string name="uninstall_fail">Shizuku uninstall failed, using system uninstall</string>
+    <string name="uninstall_error">Cannot start uninstall</string>
+    <string name="list_error">Failed to get app list</string>
+    <string name="no_apps">No third-party apps to uninstall</string>
+    <string name="no_accessibility">This app has no accessibility service enabled</string>
+    <string name="disabled_accessibility">Accessibility service disabled</string>
+    <string name="shizuku_no_perm">Shizuku not authorized, cannot disable</string>
+    <string name="op_failed">Operation failed</string>
+    <string name="dot_create_fail">Failed to create status bar button</string>
+    <string name="list_show_fail">Failed to show list</string>
+    <string name="confirm_show_fail">Failed to show confirmation</string>
+    <string name="notify_ready">Ready, tap the top block to show uninstall list</string>
+</resources>

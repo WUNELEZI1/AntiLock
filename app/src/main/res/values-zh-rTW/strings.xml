@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">星特反鎖機</string>
+    <string name="accessibility_desc">反鎖機無障礙服務，用於在鎖機狀態下彈出卸載列表，幫助卸載惡意應用。</string>
+    <string name="main_title">反鎖機</string>
+    <string name="main_info">1.需要開啟無障礙，點擊無障礙設定按鈕即可開啟，如果被拒絕開啟，請在應用詳細中點擊右上角三點取消現在，或加群詢問\n2.需要激活並授權Shizuku，如果不清楚如何下載激活，可以去嗶哩嗶哩搜尋教程，或加群詢問\n3.推薦開啟強制置頂，反鎖機成功執行後，等待片刻，開啟強制置頂，再等待片刻，點擊喚起按鈕，看看是否正常執行，如果不正常請加群詢問\n4.反鎖機只是盡可能減少被鎖風險，沒有工具能百分百保證安全不被鎖\n5.反鎖機不防格機、管理員鎖機(透過修改你的手機密碼鎖機)</string>
+    <string name="btn_shizuku">授權Shizuku</string>
+    <string name="btn_accessibility">無障礙設定</string>
+    <string name="btn_overlay">懸浮窗權限</string>
+    <string name="btn_more">更多資源</string>
+    <string name="btn_opensource">開源地址</string>
+    <string name="btn_qq_group">加入QQ群</string>
+    <string name="section_settings">━━━ 懸浮按鈕設定 ━━━</string>
+    <string name="label_width">寬度</string>
+    <string name="label_height">高度</string>
+    <string name="label_alpha">透明度</string>
+    <string name="label_color">顏色</string>
+    <string name="label_position">位置</string>
+    <string name="label_force">強制置頂（不在列表時重啟服務）</string>
+    <string name="label_interval">間隔</string>
+    <string name="tip_height">0 = 自動匹配狀態欄高度</string>
+    <string name="tip_alpha">0=全透明 255=不透明  預設140</string>
+    <string name="tip_interval">每次強制置頂的間隔時間（5-60秒）</string>
+    <string name="footer_settings">設定儲存後自動生效</string>
+    <string name="force_on">已開啟</string>
+    <string name="force_off">已關閉</string>
+    <string name="toast_shizuku_ok">已授權</string>
+    <string name="toast_shizuku_no">Shizuku 未執行</string>
+    <string name="toast_shizuku_norun">Shizuku 未執行</string>
+    <string name="toast_force_on">強制置頂已開啟</string>
+    <string name="toast_force_off">強制置頂已關閉</string>
+    <string name="toast_color_set">顏色已設定</string>
+    <string name="open_source_url">https://github.com/xiaote-XT/AntiLock</string>
+
+    <!-- 卸載列表 -->
+    <string name="uninstall_title">選擇卸載</string>
+    <string name="search_hint">搜索應用名稱或包名...</string>
+    <string name="loading">正在加載...</string>
+    <string name="confirm_uninstall">確認卸載</string>
+    <string name="ok_uninstall">確定卸載</string>
+    <string name="cancel">取消</string>
+    <string name="hide">✕ 隱藏</string>
+    <string name="refresh_list">刷新列表</string>
+    <string name="back_home">返回桌面</string>
+    <string name="count_format">共 %1$d 個  |  %2$s  |  長按關閉無障礙</string>
+    <string name="shizuku_silent">Shizuku靜默卸載</string>
+    <string name="system_uninstall">系統卸載頁</string>
+    <string name="uninstall_sent">Shizuku 卸載命令已發送</string>
+    <string name="uninstall_fail">Shizuku 卸載失敗，改用系統卸載</string>
+    <string name="uninstall_error">無法啟動卸載</string>
+    <string name="list_error">獲取應用列表失敗</string>
+    <string name="no_apps">未找到可卸載的第三方應用</string>
+    <string name="no_accessibility">該應用未開啟無障礙服務</string>
+    <string name="disabled_accessibility">已關閉無障礙服務</string>
+    <string name="shizuku_no_perm">Shizuku 未授權，無法關閉</string>
+    <string name="op_failed">操作失敗</string>
+    <string name="dot_create_fail">狀態欄按鈕創建失敗</string>
+    <string name="list_show_fail">顯示列表失敗</string>
+    <string name="confirm_show_fail">確認框顯示失敗</string>
+    <string name="notify_ready">已就緒，點擊頂部方塊彈出卸載列表</string>
+</resources>
